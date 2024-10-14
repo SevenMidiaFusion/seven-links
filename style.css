@@ -22,19 +22,19 @@ html, body {
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
-    min-height: 100vh; /* Garante que o body preencha a tela */
+    min-height: 100vh; 
     font-family: "Inter", sans-serif;
     color: var(--text-color);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Alinhamento do conteúdo */
 }
 
 #container {
     width: 100%;
     max-width: 360px;
-    margin: 56px auto 0;
-    padding: 0 16px; /* Reduzido para telas menores */
+    margin: 98px auto 0; /* Aumentada a margem superior para descer um pouco */
+    padding: 0 16px;
 }
 
 /* Profile Styles */
