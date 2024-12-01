@@ -16,7 +16,7 @@
 }
 
 html, body {
-    height: 100%; /* Garante que o body e html ocupem toda a altura */
+    height: 100%; 
     overflow: hidden; /* Impede que a página tenha rolagem */
 }
 
@@ -27,43 +27,43 @@ body {
     color: var(--text-color);
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Alinhamento do conteúdo */
+    align-items: flex-start; 
 }
 
 #container {
     width: 100%;
     max-width: 360px;
-    margin: 98px auto 0; /* Aumentada a margem superior para descer um pouco */
+    margin: 98px auto 0; 
     padding: 0 16px;
 }
 
 /* Profile Styles */
 #profile {
     text-align: center;
-    padding: 16px; /* Reduzido para telas menores */
+    padding: 16px; 
 }
 
 #profile img {
-    width: 80px; /* Reduzido para telas menores */
+    width: 80px; 
 }
 
 #profile p {
     font-weight: 500;
-    line-height: 20px; /* Reduzido para melhor ajuste */
+    line-height: 20px; 
     margin-top: 8px;
-    font-size: 14px; /* Reduzido para telas menores */
+    font-size: 14px; 
 }
 
 /* Switch Styles */
 #switch {
     position: relative;
-    width: 56px; /* Reduzido para telas menores */
+    width: 56px; 
     margin: 4px auto;
 }
 
 #switch button {
-    width: 28px; /* Reduzido para telas menores */
-    height: 28px; /* Reduzido para telas menores */
+    width: 28px; 
+    height: 28px; 
     background: white var(--switch-bg-url) no-repeat center;
     border: 0;
     border-radius: 50%;
@@ -80,13 +80,13 @@ body {
 }
 
 #switch button:hover {
-    outline: 6px solid var(--highlight-color); /* Reduzido para telas menores */
+    outline: 6px solid var(--highlight-color); 
 }
 
 #switch span {
     display: block;
-    width: 56px; /* Reduzido para telas menores */
-    height: 20px; /* Reduzido para telas menores */
+    width: 56px; 
+    height: 20px; 
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     backdrop-filter: blur(4px);
@@ -98,15 +98,15 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 12px; /* Reduzido para telas menores */
-    padding: 16px 0; /* Reduzido para telas menores */
+    gap: 12px; 
+    padding: 16px 0; 
 }
 
 ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 16px; /* Reduzido para telas menores */
+    padding: 12px 16px; 
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
@@ -114,8 +114,8 @@ ul li a {
     text-decoration: none;
     font-weight: 500;
     transition: background 0.2s;
-    font-size: 14px; /* Reduzido para telas menores */
-    color: var(--text-color); /* Define a cor do texto dos links */
+    font-size: 14px; 
+    color: var(--text-color); 
 }
 
 ul li a:hover {
@@ -127,18 +127,18 @@ ul li a:hover {
 #social-links {
     display: flex;
     justify-content: center;
-    padding: 16px 0; /* Reduzido para telas menores */
-    font-size: 20px; /* Reduzido para telas menores */
+    padding: 16px 0; 
+    font-size: 20px; 
 }
 
 #social-links a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px; /* Reduzido para telas menores */
+    padding: 12px; 
     transition: background 0.2s;
     border-radius: 50%;
-    color: var(--text-color); /* Define a cor do texto dos links sociais */
+    color: var(--text-color); 
 }
 
 #social-links a:hover {
@@ -147,9 +147,9 @@ ul li a:hover {
 
 /* Footer Styles */
 footer {
-    padding: 16px 0; /* Reduzido para telas menores */
+    padding: 16px 0; 
     text-align: center;
-    font-size: 12px; /* Reduzido para telas menores */
+    font-size: 12px; 
     color: var(--text-color);
 }
 
@@ -161,7 +161,7 @@ footer {
 
     #container {
         max-width: 588px;
-        padding: 0 24px; /* Ajuste para telas maiores */
+        padding: 0 24px; 
     }
 
     #profile img {
@@ -169,7 +169,7 @@ footer {
     }
 
     #profile p {
-        font-size: 16px; /* Ajustado para telas maiores */
+        font-size: 16px; 
     }
 
     #switch {
@@ -187,23 +187,23 @@ footer {
     }
 
     ul {
-        gap: 16px; /* Ajustado para telas maiores */
+        gap: 16px; 
         padding: 24px 0;
     }
 
     ul li a {
         padding: 16px 24px;
-        font-size: 16px; /* Ajustado para telas maiores */
+        font-size: 16px; 
     }
 
     #social-links {
         padding: 24px 0;
-        font-size: 24px; /* Ajustado para telas maiores */
+        font-size: 24px; 
     }
 
     footer {
         padding: 24px 0;
-        font-size: 14px; /* Ajustado para telas maiores */
+        font-size: 14px; 
     }
 }
 
